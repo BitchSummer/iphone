@@ -1,0 +1,332 @@
+.w{
+    width:1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+.w .product-intro{
+    position: relative;
+    margin-bottom: 10px;
+}
+.w .product-intro .preview-wrap{
+    width: 430px;
+    float: left;;
+}
+.preview{
+    position: relative;
+}
+.preview .jqzoom {
+    position: relative;
+    padding: 0;
+}
+.preview .main-img{
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.preview .main-img img{
+    width: 428px;
+    height: 428px;
+}
+.preview .spec-list{
+    margin-bottom: 18px;
+    position: relative;
+}
+.preview .spec-list .arrow-prev{
+    left: 0;
+}
+.preview .spec-list .arrow-next {
+    right: 0;
+}
+.preview .spec-list .arrow-next, .preview .spec-list .arrow-prev{
+    display: block;
+    width: 22px;
+    height: 32px;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -16px;
+}
+.preview .spec-list .arrow-prev .sprite-arrow-prev{
+    background-image: url("../image/disabled-prev.png");
+    width: 22px;
+    height: 32px;
+}
+.preview .spec-list .arrow-next .sprite-arrow-next{
+    background-image: url("../image/disabled-next.png");
+    width: 22px;
+    height: 32px;
+}
+.preview .spec-items{
+    width: 390px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.preview .spec-items ul li.img-hover img, .preview .spec-items ul li:hover img{
+    border: 2px solid #e53e41;
+}
+.preview .spec-items ul li img{
+    border: 2px solid #fff;
+}
+.preview .spec-items ul {
+    width: 2000px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.preview .spec-items ul li {
+    float: left;
+    margin: 0 9px;
+}
+#max_wrap{
+    position: absolute;
+    left: 432px;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: none;
+    z-index: 9999;
+}
+#slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 175px;
+    height: 175px;
+    background-color: rgba(255,255,0,0.3);
+    cursor: pointer;
+    display: none;
+}
+.itemInfo-wrap{
+    float: left;
+    width: 724px;
+    margin-left: 45px;
+}
+.itemInfo-wrap .sku-name h1{
+    font-size: 24px;
+    font-weight:500;
+}
+.summary{
+    position: relative;
+    padding-bottom: 5px;
+}
+.summary-price{
+    position: relative;
+    margin-bottom: 5px;
+}
+.summary-price .dt{
+    line-height: 32px;
+}
+.itemInfo-wrap .dt{
+    float: left;
+    font-family: simsun;
+    color: #999;
+}
+.itemInfo-wrap .dd{
+    margin-left: 70px;
+}
+.summary-price .p-price{
+    color: #E4393C;
+    font-family: "microsoft yahei";
+    margin-right: 10px;
+    overflow: hidden;
+}
+.summary-price .p-price .price{
+    font-size: 22px;
+}
+.li{
+    margin-bottom: 3px;
+    line-height: 32px;
+    display: inline-block;
+    display: block;
+}
+.li .item{
+    float: left;
+    color: #666;
+    background-color: #FFF;
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+.li .item a{
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    display: block;
+    white-space: nowrap;
+    *display: inline;
+    *zoom: 1;
+}
+img{
+    vertical-align: middle;
+}
+.li .item.hover a, .li .item.selected a, .li .item:hover a{
+    border: 1px solid #e3393c;
+    color: #666;
+}
+i{
+    font-style: normal;
+    display: inline-block;
+}
+.item a i{
+    margin: 0 8px;
+}
+#choose-attr-1 {
+    line-height: 40px;
+}
+#choose-attr-1 .item{
+    background-color: #F7F7F7;
+}
+#choose-attr-1 .item a{
+    padding: 0;
+}
+a{
+    color: #666;
+}
+.edition,
+.network,
+.color,
+.package,
+.capacity{
+    margin-bottom: 10px;
+}
+.number .amount{
+    margin-bottom: 3px;
+    line-height: 32px;
+    display: inline-block;
+}
+.number .conn{
+    position: relative;
+}
+.number .conn .entry{
+    position: absolute;
+}
+.number .conn .entry .connect{
+    width: 48px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid rgba(239,239,239,1);
+}
+.number .conn .arrow{
+    position: absolute;
+    left: 53px;
+}
+.number .conn .arrow .up{
+    width: 18px;
+    height: 13px;
+    border: 1px solid rgba(239,239,239,1);
+    background-image: url("../image/箭头1-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+.number .conn .arrow .down{
+    width: 18px;
+    height: 13px;
+    border: 1px solid rgba(239,239,239,1);
+    background-image: url("../image/箭头1-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin-top: 4px;
+}
+.number .amount .pull{
+    position: absolute;
+    left: 80px;
+}
+.number .amount .box{
+    width: 80px;
+    height: 32px;
+    border: 1px solid rgba(239,239,239,1);
+    display: inline-block;
+    text-indent:12px;
+}
+.number .amount .individual{
+    position: absolute;
+    width: 50px;
+    top: 0;
+    left: 90px;
+}
+.join{
+    margin-top: 10px;
+}
+.join .buy{
+    width: 158px;
+    height: 38px;
+    border: 1px solid rgba(13,111,244,1);
+    color: #0D6FF4;
+    text-align: center;
+    line-height: 38px;
+    background:rgba(13,111,244,0.1);
+    cursor: pointer;
+    display: inline-block;
+    font-weight:500;
+    vertical-align: middle;
+}
+.join .shopping{
+    margin-left: 10px;
+    width: 158px;
+    height: 38px;
+    display: inline-block;
+    color:rgba(255,255,255,1);
+    font-weight:500;
+    background:rgba(13,111,244,1);
+    border:1px solid rgba(13,111,244,1);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 38px;
+    cursor: pointer;
+}
+.join .shopping-icon{
+    background-image: url(../image/shopping.png);
+    background-size: 100% 100%;
+    width: 20px;
+    height: 18px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.content-title{
+    width: 1200px;
+    margin: 0 auto;
+}
+.box-title{
+    margin-top: 40px;
+}
+.box-title h1{
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    font-size:16px;
+    margin-bottom: 30px;
+}
+.box-title h3{
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    font-size:14px;
+}
+.title-left{
+    float: left;
+    font-size:14px;
+    color:rgba(102,102,102,1);
+}
+.title-left li{
+    margin-top: 24px;
+}
+.title-center{
+    float: left;
+    margin-left: 36px;
+    font-size:14px;
+    color:rgba(102,102,102,1);
+}
+.title-center li{
+    margin-top: 24px;
+}
+.title-right{
+    float: left;
+    margin-left: 111px;
+    font-size:14px;
+    color:rgba(102,102,102,1);
+}
+.title-right li{
+    margin-top: 24px;
+}
